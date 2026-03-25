@@ -4,7 +4,7 @@ import { validationRequired } from "@prettylab/core/utils/form/validation";
 import { DatePickerProps } from "@mui/x-date-pickers/DatePicker";
 import UncontrolledInputYear, {
   UncontrolledInputYearProps,
-} from "@/components/Form/Uncontrolled/InputYear";
+} from "@prettylab/core/components/input/InputYear";
 
 type InputYearProps = {
   name: string;

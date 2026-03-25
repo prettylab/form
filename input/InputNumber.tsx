@@ -6,7 +6,7 @@ import { Controller, useFormContext } from "react-hook-form";
 import { validationRequired } from "@prettylab/core/utils/form/validation";
 import UncontrolledInputNumber, {
   UncontrolledInputNumberProps,
-} from "@/components/Form/Uncontrolled/InputNumber";
+} from "@prettylab/core/components/input/InputNumber";
 
 type InputNumberProps = {
   name: string;

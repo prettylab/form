@@ -1,8 +1,8 @@
-import { UncontrolledInputAutocompleteProps } from "@/components/Form/Uncontrolled/InputAutocomplete";
+import { UncontrolledInputAutocompleteProps } from "@prettylab/core/components/input/InputAutocomplete";
 import { AutocompleteProps } from "@mui/material";
 import { Controller, useFormContext } from "react-hook-form";
 import { validationRequired } from "@prettylab/core/utils/form/validation";
-import UncontrolledInputAutocomplete from "@/components/Form/Uncontrolled/InputAutocomplete";
+import UncontrolledInputAutocomplete from "@prettylab/core/components/input/InputAutocomplete";
 
 type InputAutocompleteProps = {
   name: string;

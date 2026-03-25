@@ -1,6 +1,6 @@
 import { Controller, useFormContext } from "react-hook-form";
-import { UncontrolledInputApiAutocompleteProps } from "@/components/Form/Uncontrolled/InputApiAutocomplete";
-import UncontrolledInputApiAutocomplete from "@/components/Form/Uncontrolled/InputApiAutocomplete";
+import { UncontrolledInputApiAutocompleteProps } from "@prettylab/api/components/input/InputApiAutocomplete";
+import UncontrolledInputApiAutocomplete from "@prettylab/api/components/input/InputApiAutocomplete";
 
 type InputApiAutocompleteProps = {
   name: string;

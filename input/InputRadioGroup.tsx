@@ -2,7 +2,7 @@ import { RadioGroupProps } from "@mui/material";
 import { Controller, useFormContext } from "react-hook-form";
 import UncontrolledInputRadioGroup, {
   UncontrolledInputRadioGroupProps,
-} from "@/components/Form/Uncontrolled/InputRadioGroup";
+} from "@prettylab/core/components/input/InputRadioGroup";
 
 type InputRadioProps = {
   name: string;

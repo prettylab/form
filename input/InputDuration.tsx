@@ -4,7 +4,7 @@ import { Controller, useFormContext } from "react-hook-form";
 import { validationRequired } from "@prettylab/core/utils/form/validation";
 import UncontrolledInputDuration, {
   UncontrolledInputDurationProps,
-} from "@/components/Form/Uncontrolled/InputDuration";
+} from "@prettylab/core/components/input/InputDuration";
 import { TimeFieldProps } from "@mui/x-date-pickers";
 
 type InputDurationProps = {

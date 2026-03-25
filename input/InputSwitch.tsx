@@ -5,7 +5,7 @@ import { Controller, useFormContext } from "react-hook-form";
 import { validationRequired } from "@prettylab/core/utils/form/validation";
 import UncontrolledInputSwitch, {
   UncontrolledInputSwitchProps,
-} from "@/components/Form/Uncontrolled/InputSwitch";
+} from "@prettylab/core/components/input/InputSwitch";
 
 type InputSwitchProps = {
   name: string;
